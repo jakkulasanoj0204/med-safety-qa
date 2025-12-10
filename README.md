@@ -128,6 +128,19 @@ Reason:
 
 \### Automated Test Scenarios (Selenium + Java + TestNG)
 
+#### Login Automation (Positive Flow)
+This screenshot demonstrates successful login automation execution:
+![Login Success](assets/screenshots/login_success.png)
+
+#### Invalid Login Error Validation
+This screenshot demonstrates UI error validation on incorrect credentials:
+![Invalid Login](assets/screenshots/invalid_login_error.png)
+
+#### Inventory Page Navigation
+This screenshot demonstrates page transition after proper authentication:
+![Inventory Page](assets/screenshots/inventory_page.png)
+
+
 
 
 | Test Case | Status | Tools Used |
@@ -189,6 +202,11 @@ Inside repository:
 cd automation/selenium-java
 
 mvn test
+
+#### Build Success Output
+This confirms all automated test flows successfully executed:
+![Build Success](assets/screenshots/build_success.png)
+
 
 
 
